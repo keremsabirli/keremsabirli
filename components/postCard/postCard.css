@@ -1,0 +1,48 @@
+@layer components {
+    .post-card {
+        @apply
+        flex
+        cursor-pointer
+        p-4
+        border-2
+        border-white
+        
+    }
+    .post-card:hover {
+        @apply
+        border-gray-700
+        border-opacity-25
+    }
+    .post-card-content {
+        @apply
+        w-3/4
+    }
+    .post-card-image-container {
+        @apply
+        w-1/4
+        flex
+    }
+    .post-card-image {
+        @apply
+        m-auto
+    }
+    .post-card-footer {
+        @apply
+        flex
+        justify-end
+        text-gray-600
+        font-extrabold
+        p-4
+    }
+    .post-card-description-container {
+        @apply
+        pt-4
+        text-gray-500
+        font-semibold
+    }
+    .post-card-title {
+        @apply
+        text-xl
+        font-extrabold
+    }
+}

@@ -1,0 +1,8 @@
+@import '../components/header/header.css';
+@import '../components/postCard/postCard.css';
+@layer components {
+    .main-frame {
+        @apply
+        m-8
+    }
+}
